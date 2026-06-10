@@ -1,0 +1,14 @@
+# Ignorar todo
+*
+
+# No ignorar los directorios (para poder entrar a buscar archivos permitidos)
+!*/
+
+# Ignorar específicamente las carpetas autogeneradas por Simulink/QUARC de tu imagen
+slprj/
+*quarc_win64/
+
+# Permitir las extensiones deseadas en cualquier nivel
+!*.m
+!*.slx
+!.gitignore
