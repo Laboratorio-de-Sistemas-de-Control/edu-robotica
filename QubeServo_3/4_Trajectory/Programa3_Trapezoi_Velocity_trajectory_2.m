@@ -129,3 +129,9 @@ plot(T,Qdd,'LineWidth',2)
 ylabel('Aceleración')
 xlabel('Tiempo')
 grid on
+
+
+%% Referencia para el sistema
+
+t = T;
+ref = [t; Qd]';
